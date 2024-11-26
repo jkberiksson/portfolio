@@ -7,6 +7,13 @@ export const projects = [
         tags: ['javascript', 'web components', 'css'],
     },
     {
+        title: 'Games 2024',
+        description: 'Web application built with React. Highlights games from 2024.',
+        link: 'https://jkberiksson-popgames2024.netlify.app/',
+        repo: 'https://github.com/jkberiksson/games',
+        tags: ['react', 'vite', 'tailwind css', 'react-feather', 'framer motion'],
+    },
+    {
         title: 'Website Design',
         description: 'A simple website built with React. Features animations using Framer Motion and styling with Tailwind CSS.',
         link: 'https://jkberiksson-serenita-website-design.netlify.app/',
@@ -15,13 +22,15 @@ export const projects = [
     },
     {
         title: 'Javascript Games',
-        description: 'A collection of 5 small games built with HTML, CSS, and vanilla JavaScript. Created as a final exam project. Not responsive.',
+        description:
+            'A collection of 5 small games built with HTML, CSS, and vanilla JavaScript. Created as a final exam project. Not responsive.',
         link: 'https://www.student.bth.se/~jaei23/dbwebb-kurser/js/me/public/kmom10.html',
         tags: ['javascript', 'html', 'css', 'jsdoc'],
     },
     {
         title: 'Portfolio Design',
-        description: 'A portfolio site to practice CSS skills. Built with the Pico CMS and Twig template engine, using Sass for styling and Markdown for content.',
+        description:
+            'A portfolio site to practice CSS skills. Built with the Pico CMS and Twig template engine, using Sass for styling and Markdown for content.',
         link: 'https://www.student.bth.se/~jaei23/dbwebb-kurser/design/me/kmom10/',
         tags: ['html', 'css', 'sass', 'pico', 'twig', 'markdown'],
     },
@@ -47,7 +56,8 @@ export const projects = [
     },
     {
         title: 'Image Gallery App',
-        description: 'An image gallery app built with React. Uses Framer Motion for animations and Styled Components for CSS. Not responsive.',
+        description:
+            'An image gallery app built with React. Uses Framer Motion for animations and Styled Components for CSS. Not responsive.',
         link: 'https://jkberiksson-image-gallery.netlify.app/',
         repo: 'https://github.com/jkberiksson/image-gallery',
         tags: ['react', 'framer motion', 'styled components', 'feather icons'],
