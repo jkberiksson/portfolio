@@ -9,7 +9,7 @@ import { AnimatePresence } from 'framer-motion';
 function App() {
     const location = useLocation();
     return (
-        <div className='font-dm-sans text-[#e3e3e3] bg-[#0a0711]'>
+        <div className='font-dm-sans text-[#e3e3e3]'>
             <Header />
             <SideIcons />
             <AnimatePresence mode='wait'>
