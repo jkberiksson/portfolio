@@ -2,7 +2,7 @@ export const projects = [
     {
         title: 'Watt är vi på väg?',
         description:
-            'Fullstack e-scooter application containing an app for renting scooter and  websolution for users and admins. Built with React as frontend and express as backend Still in production. Contact me for livedemo.',
+            'Fullstack e-scooter application containing an app for renting scooter and  websolution for users and admins. Built with React as frontend and express as backend. Still in production. Contact me for livedemo.',
         repo1: 'https://github.com/Wattarvipavag/vteam14-frontend',
         repo2: 'https://github.com/Wattarvipavag/vteam14-backend',
         repo3: 'https://github.com/Wattarvipavag/vteam14-app',
