@@ -16,7 +16,7 @@ export default function Projects() {
             </motion.div>
 
             {/* Project List */}
-            <div className='flex flex-col gap-16 mb-12 lg:self-center'>
+            <div className='flex flex-col gap-16 mb-12 max-w-5xl mx-auto'>
                 {projects.map((project, index) => (
                     <motion.div
                         key={index}
@@ -40,9 +40,46 @@ export default function Projects() {
                                 ))}
                             </div>
                             <div className='flex gap-6 mt-3'>
-                                <a href={project.link} target='_blank' rel='noopener noreferrer' className='text-blue-400 hover:underline'>
-                                    View Demo
-                                </a>
+                                {project.link && (
+                                    <a
+                                        href={project.link}
+                                        target='_blank'
+                                        rel='noopener noreferrer'
+                                        className='text-blue-400 hover:underline'>
+                                        View Demo
+                                    </a>
+                                )}
+
+                                {project.repo1 && (
+                                    <a
+                                        href={project.repo1}
+                                        target='_blank'
+                                        rel='noopener noreferrer'
+                                        className='text-blue-400 hover:underline'>
+                                        View Code(frontend)
+                                    </a>
+                                )}
+
+                                {project.repo2 && (
+                                    <a
+                                        href={project.repo2}
+                                        target='_blank'
+                                        rel='noopener noreferrer'
+                                        className='text-blue-400 hover:underline'>
+                                        View Code(backend)
+                                    </a>
+                                )}
+
+                                {project.repo3 && (
+                                    <a
+                                        href={project.repo3}
+                                        target='_blank'
+                                        rel='noopener noreferrer'
+                                        className='text-blue-400 hover:underline'>
+                                        View Code(app)
+                                    </a>
+                                )}
+
                                 {project.repo && (
                                     <a
                                         href={project.repo}
