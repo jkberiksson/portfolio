@@ -50,6 +50,16 @@ export default function Projects() {
                                     </a>
                                 )}
 
+                                {project.link_app && (
+                                    <a
+                                        href={project.link_app}
+                                        target='_blank'
+                                        rel='noopener noreferrer'
+                                        className='text-blue-400 hover:underline'>
+                                        View Demo(Web app designed for mobile only)
+                                    </a>
+                                )}
+
                                 {project.repo1 && (
                                     <a
                                         href={project.repo1}

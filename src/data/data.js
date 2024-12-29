@@ -3,6 +3,7 @@ export const projects = [
         title: 'Watt är vi på väg?',
         description:
             'Fullstack e-scooter application containing an app for renting scooter and  websolution for users and admins. Built with React as frontend and express as backend. Still in production. Contact me for livedemo.',
+        link_app: 'https://vteam-14-app.netlify.app',
         repo1: 'https://github.com/Wattarvipavag/vteam14-frontend',
         repo2: 'https://github.com/Wattarvipavag/vteam14-backend',
         repo3: 'https://github.com/Wattarvipavag/vteam14-app',
@@ -11,7 +12,8 @@ export const projects = [
     {
         title: 'Document app',
         description:
-            'Web application built with React as frontend and express as backend. Ability to create, read, update and delete documents. Also able to share docs with others and make comments to each document. Finished but not published. Contact me for livedemo.',
+            'Web application built with React as frontend and express as backend. Ability to create, read, update and delete documents. Also able to share docs with others and make comments to each document. Contact me for livedemo.',
+        link: 'https://www.student.bth.se/~paar24/editor',
         repo1: 'https://github.com/jkberiksson/jsramverkHT24-frontend',
         repo2: 'https://github.com/PatrikArvius/jsramverkHT24',
         tags: ['react', 'tailwind css', 'react feather', 'socket.io', 'express', 'node.js', 'mongodb', 'mongoose'],
