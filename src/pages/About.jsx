@@ -9,7 +9,7 @@ export default function About() {
             {/* Content Grid (Similar to Work Page) */}
             <div>
                 {/* About Section */}
-                <div className='lg:w-1/2 lg:m-auto mb-10'>
+                <div className='lg:w-1/2 lg:mx-auto mb-10'>
                     <h2 className='text-3xl font-bold'>Who I Am</h2>
                     <p className='text-lg font-sans'>
                         I'm a passionate developer who loves creating web applications and exploring new technologies. I specialize in
@@ -18,7 +18,7 @@ export default function About() {
                 </div>
 
                 {/* Skills Section */}
-                <div className='lg:w-1/2 lg:m-auto mb-10'>
+                <div className='lg:w-1/2 lg:mx-auto mb-10'>
                     <h2 className='text-3xl font-bold'>Skills</h2>
                     <ul className='text-lg font-sans'>
                         <li>JavaScript</li>
@@ -31,7 +31,7 @@ export default function About() {
                 </div>
 
                 {/* Experience Section */}
-                <div className='lg:w-1/2 lg:m-auto mb-10'>
+                <div className='lg:w-1/2 lg:mx-auto mb-10'>
                     <h2 className='text-3xl font-bold'>Experience</h2>
                     <div className='text-lg space-y-2 font-sans'>
                         <p>
@@ -47,7 +47,7 @@ export default function About() {
                 </div>
 
                 {/* Contact Section */}
-                <div className='lg:w-1/2 lg:m-auto mb-10'>
+                <div className='lg:w-1/2 lg:mx-auto mb-10'>
                     <h2 className='text-3xl font-bold'>Contact</h2>
                     <p className='text-lg  font-sans'>Email: jkberiksson@gmail.com</p>
                     <p className='text-lg  font-sans'>Location: Kalmar, Sweden</p>
