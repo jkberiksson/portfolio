@@ -30,9 +30,11 @@ export default function Work() {
                                     <a href={project.demo} target='_blank' rel='noopener noreferrer' className='hover:underline'>
                                         Live Demo
                                     </a>
-                                    <a href={project.github} target='_blank' rel='noopener noreferrer' className='hover:underline'>
-                                        GitHub
-                                    </a>
+                                    {project.github && (
+                                        <a href={project.github} target='_blank' rel='noopener noreferrer' className='hover:underline'>
+                                            GitHub
+                                        </a>
+                                    )}
                                 </div>
                             </div>
                         </div>
