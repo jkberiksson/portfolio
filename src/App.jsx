@@ -1,23 +1,19 @@
 import Header from './components/Header';
-import SideIcons from './components/SideIcons';
-import Home from './pages/Home';
-import Projects from './pages/Projects';
+import Footer from './components/Footer';
+import Work from './pages/Work';
+import About from './pages/About';
 
-import { Routes, Route, useLocation } from 'react-router-dom';
-import { AnimatePresence } from 'framer-motion';
+import { Routes, Route } from 'react-router-dom';
 
 function App() {
-    const location = useLocation();
     return (
-        <div className='font-dm-sans text-[#e3e3e3]'>
+        <div className='min-h-dvh p-4 font-bebop text-black overflow-hidden'>
             <Header />
-            <SideIcons />
-            <AnimatePresence mode='wait'>
-                <Routes location={location} key={location.pathname}>
-                    <Route path='/' element={<Home />} />
-                    <Route path='/projects' element={<Projects />} />
-                </Routes>
-            </AnimatePresence>
+            <Routes>
+                <Route path='/' element={<Work />} />
+                <Route path='/about' element={<About />} />
+            </Routes>
+            <Footer />
         </div>
     );
 }

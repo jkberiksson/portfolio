@@ -2,10 +2,13 @@
 export default {
     content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
     theme: {
-        fontFamily: {
-            'dm-sans': 'DM sans',
+        extend: {
+            fontFamily: {
+                lora: ['Lora', 'serif'],
+                'dm-sans': ['DM Sans', 'sans-serif'],
+                bebop: ['Bebas Neue', 'sans-serif'],
+            },
         },
-        extend: {},
     },
     plugins: [],
 };
