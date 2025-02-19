@@ -1,7 +1,19 @@
+import designImg from '../assets/design.png';
+import documentImg from '../assets/document.png';
+import foodImg from '../assets/food.png';
+import galleryImg from '../assets/gallery.png';
+import gamesImg from '../assets/games.png';
+import gorpImg from '../assets/gorp.png';
+import jsImg from '../assets/js.png';
+import spellcheckerImg from '../assets/spellchecker.png';
+import trainImg from '../assets/train.png';
+import wattImg from '../assets/watt.png';
+import weatherImg from '../assets/weather.png';
+
 export const projects = [
     {
         title: 'Watt är vi på väg?',
-        img: '../data/watt.png',
+        img: wattImg,
         description:
             'Fullstack e-scooter application containing an app for renting scooter and  websolution for users and admins. Built with React as frontend and express as backend. Contact me for livedemo.',
         demo: 'https://vteam-14-app.netlify.app',
@@ -10,7 +22,7 @@ export const projects = [
     },
     {
         title: 'Image Gallery',
-        img: '../data/gallery.png',
+        img: galleryImg,
         description:
             'An image gallery app built with React. Uses Framer Motion for animations and Styled Components for CSS. Designed for web only.',
         demo: 'https://jkberiksson-image-gallery.netlify.app/',
@@ -19,7 +31,7 @@ export const projects = [
     },
     {
         title: 'Train Delays',
-        img: '../data/train.png',
+        img: trainImg,
         description: 'Web application built with vanilla JavaScript. Highlights train delays in Sweden. Designed for mobile only.',
         demo: 'https://www.student.bth.se/~jaei23/dbwebb-kurser/webapp/me/kmom10/proj/',
         github: 'https://github.com/jkberiksson/train-delays',
@@ -27,7 +39,7 @@ export const projects = [
     },
     {
         title: 'Serenita Design',
-        img: '../data/design.png',
+        img: designImg,
         description:
             'A simple website built with React. Features animations using Framer Motion and styling with Tailwind CSS. Designed for web only.',
         demo: 'https://jkberiksson-serenita-website-design.netlify.app/',
@@ -36,7 +48,7 @@ export const projects = [
     },
     {
         title: 'Documents',
-        img: '../data/document.png',
+        img: documentImg,
         description:
             'Web application built with React as frontend and express as backend. Ability to create, read, update and delete documents. Also able to share docs with others and make comments to each document. Contact me for livedemo.',
         demo: 'https://www.student.bth.se/~paar24/editor',
@@ -45,7 +57,7 @@ export const projects = [
     },
     {
         title: 'Games 2024',
-        img: '../data/games.png',
+        img: gamesImg,
         description: 'Web application built with React. Highlights games from 2024. Designed for both web and mobile.',
         demo: 'https://jkberiksson-popgames2024.netlify.app/',
         github: 'https://github.com/jkberiksson/games',
@@ -54,7 +66,7 @@ export const projects = [
 
     {
         title: 'Javascript Games',
-        img: '../data/js.png',
+        img: jsImg,
         description:
             'A collection of 5 small games built with HTML, CSS, and vanilla JavaScript. Created as a final exam project. Designed for web only.',
         demo: 'https://www.student.bth.se/~jaei23/dbwebb-kurser/js/me/public/kmom10.html',
@@ -62,7 +74,7 @@ export const projects = [
     },
     {
         title: 'Bew Gorp',
-        img: '../data/gorp.png',
+        img: gorpImg,
         description:
             'A portfolio site to practice CSS skills. Built with the Pico CMS and Twig template engine, using Sass for styling and Markdown for content. Designed for both web and mobile.',
         demo: 'https://www.student.bth.se/~jaei23/dbwebb-kurser/design/me/kmom10/',
@@ -70,7 +82,7 @@ export const projects = [
     },
     {
         title: 'Spellchecker',
-        img: '../data/spellchecker.png',
+        img: spellcheckerImg,
         description:
             'A Flask app that checks words against a dictionary. Users can switch to other dictionaries with more words. Designed for web only.',
         demo: 'https://www.student.bth.se/~jaei23/dbwebb-kurser/oopython/me/kmom10/spellchecker/app.cgi',
@@ -78,7 +90,7 @@ export const projects = [
     },
     {
         title: 'What´s the Weather?',
-        img: '../data/weather.png',
+        img: weatherImg,
         description:
             'A React app for checking weather updates. Built with Framer Motion for animations and Tailwind CSS for styling. Designed for both web and mobile.',
         demo: 'https://jkberiksson-weather.netlify.app/',
@@ -87,7 +99,7 @@ export const projects = [
     },
     {
         title: 'Foodies',
-        img: '../data/food.png',
+        img: foodImg,
         description:
             'A React app to browse recipes. Includes navigation with React Router DOM and animations with Framer Motion. Designed for both web and mobile.',
         demo: 'https://jkberiksson-food.netlify.app/',
