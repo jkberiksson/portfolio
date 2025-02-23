@@ -9,8 +9,17 @@ import spellcheckerImg from '../assets/spellchecker.png';
 import trainImg from '../assets/train.png';
 import wattImg from '../assets/watt.png';
 import weatherImg from '../assets/weather.png';
+import webScrollAnimationImg from '../assets/web-scroll-animation.png';
 
 export const projects = [
+    {
+        title: 'Web Scroll Animations',
+        img: webScrollAnimationImg,
+        description:
+            'A website design focusing on scroll-animations. Built with React and Next.js. For scroll animations, I use framer motion and Lenis scroll for smooth scrolling. Designed for both web and mobile.',
+        demo: 'https://timely-mochi-f37d29.netlify.app/',
+        github: 'https://github.com/jkberiksson/scroll-animations',
+    },
     {
         title: 'Watt är vi på väg?',
         img: wattImg,

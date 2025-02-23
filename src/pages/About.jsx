@@ -4,13 +4,13 @@ export default function About() {
     return (
         <div className='text-center'>
             {/* Heading */}
-            <h1 className='text-9xl mb-10'>About Me</h1>
+            <h1 className='text-9xl mb-10'>About</h1>
 
             {/* Content Grid (Similar to Work Page) */}
             <div>
                 {/* About Section */}
                 <div className='lg:w-1/2 lg:mx-auto mb-10'>
-                    <h2 className='text-3xl font-bold'>Who I Am</h2>
+                    <h2 className='text-3xl font-bold'>Who Am I?</h2>
                     <p className='text-lg font-sans'>
                         I'm a passionate developer who loves building modern and user-friendly web applications. I enjoy solving problems,
                         learning new technologies, and constantly improving my skills. My focus is on creating clean, efficient, and
@@ -56,13 +56,13 @@ export default function About() {
                     <h2 className='text-3xl font-bold'>Experience</h2>
                     <div className='text-lg space-y-2 font-sans'>
                         <p>
-                            <strong>Web Development</strong> - Freelance (2025 - Present)
+                            <strong>Freelance</strong> - Web Development (2025 - Present)
                         </p>
                         <p>
-                            <strong>Full-Stack Developer</strong> - Blekinge Technical University (2023 - 2025)
+                            <strong>Blekinge Technical University</strong> - Full-Stack Developer (2023 - 2025)
                         </p>
                         <p>
-                            <strong>Web Design</strong> - University West (2021 - 2022)
+                            <strong>University West</strong> - Web Design (2021 - 2022)
                         </p>
                     </div>
                 </div>
