@@ -21,15 +21,6 @@ export const projects = [
         github: 'https://github.com/jkberiksson/scroll-animations',
     },
     {
-        title: 'Watt är vi på väg?',
-        img: wattImg,
-        description:
-            'Fullstack e-scooter application containing an app for renting scooter and  websolution for users and admins. Built with React as frontend and express as backend. Contact me for livedemo.',
-        demo: 'https://vteam-14-app.netlify.app',
-        github: 'https://github.com/Wattarvipavag',
-        tags: ['react', 'sass', 'mapbox', 'react icons', 'express', 'node.js', 'mongodb', 'mongoose'],
-    },
-    {
         title: 'Image Gallery',
         img: galleryImg,
         description:
@@ -37,6 +28,33 @@ export const projects = [
         demo: 'https://jkberiksson-image-gallery.netlify.app/',
         github: 'https://github.com/jkberiksson/image-gallery',
         tags: ['react', 'framer motion', 'styled components', 'feather icons'],
+    },
+    {
+        title: 'Web Design Animations',
+        img: designImg,
+        description:
+            'A simple website built with React. Features animations using Framer Motion and styling with Tailwind CSS. Designed for web only.',
+        demo: 'https://jkberiksson-serenita-website-design.netlify.app/',
+        github: 'https://github.com/jkberiksson/Serenita-website-design',
+        tags: ['react', 'framer motion', 'tailwind css'],
+    },
+    {
+        title: 'What´s the Weather?',
+        img: weatherImg,
+        description:
+            'A React app for checking weather updates. Built with Framer Motion for animations and Tailwind CSS for styling. Designed for both web and mobile.',
+        demo: 'https://jkberiksson-weather.netlify.app/',
+        github: 'https://github.com/jkberiksson/weather',
+        tags: ['react', 'framer motion', 'tailwind css', 'react icons'],
+    },
+    {
+        title: 'Watt är vi på väg?',
+        img: wattImg,
+        description:
+            'Fullstack e-scooter application containing an app for renting scooter and  websolution for users and admins. Built with React as frontend and express as backend. Contact me for livedemo.',
+        demo1: 'https://vteam-14-app.netlify.app',
+        github: 'https://github.com/Wattarvipavag',
+        tags: ['react', 'sass', 'mapbox', 'react icons', 'express', 'node.js', 'mongodb', 'mongoose'],
     },
     {
         title: 'Train Delays',
@@ -47,20 +65,11 @@ export const projects = [
         tags: ['javascript', 'web components', 'css'],
     },
     {
-        title: 'Serenita Design',
-        img: designImg,
-        description:
-            'A simple website built with React. Features animations using Framer Motion and styling with Tailwind CSS. Designed for web only.',
-        demo: 'https://jkberiksson-serenita-website-design.netlify.app/',
-        github: 'https://github.com/jkberiksson/Serenita-website-design',
-        tags: ['react', 'framer motion', 'tailwind css'],
-    },
-    {
         title: 'Documents',
         img: documentImg,
         description:
             'Web application built with React as frontend and express as backend. Ability to create, read, update and delete documents. Also able to share docs with others and make comments to each document. Contact me for livedemo.',
-        demo: 'https://www.student.bth.se/~paar24/editor',
+        demo1: 'https://www.student.bth.se/~paar24/editor',
         github: 'https://github.com/jkberiksson/jsramverkHT24-frontend',
         tags: ['react', 'tailwind css', 'react feather', 'socket.io', 'express', 'node.js', 'mongodb', 'mongoose'],
     },
@@ -96,15 +105,6 @@ export const projects = [
             'A Flask app that checks words against a dictionary. Users can switch to other dictionaries with more words. Designed for web only.',
         demo: 'https://www.student.bth.se/~jaei23/dbwebb-kurser/oopython/me/kmom10/spellchecker/app.cgi',
         tags: ['python', 'flask', 'html', 'css'],
-    },
-    {
-        title: 'What´s the Weather?',
-        img: weatherImg,
-        description:
-            'A React app for checking weather updates. Built with Framer Motion for animations and Tailwind CSS for styling. Designed for both web and mobile.',
-        demo: 'https://jkberiksson-weather.netlify.app/',
-        github: 'https://github.com/jkberiksson/weather',
-        tags: ['react', 'framer motion', 'tailwind css', 'react icons'],
     },
     {
         title: 'Foodies',

@@ -1,9 +1,10 @@
+import { p } from 'motion/react-client';
 import { projects } from '../data/data.js';
 
 export default function Work() {
     return (
         <div>
-            <h1 className='text-9xl text-center'>Work</h1>
+            <h1 className='text-9xl text-center mb-10'>Work</h1>
             <div className='grid grid-cols-[repeat(auto-fit,minmax(350px,1fr))] gap-10'>
                 {projects.map((project, idx) => {
                     return (
@@ -18,18 +19,22 @@ export default function Work() {
                                 <div className='absolute left-0 top-0 w-full h-full bg-black/30'></div>
 
                                 {/* Description Overlay - Shown on Hover */}
-                                <div className='absolute inset-0 flex items-center justify-center bg-black/80 opacity-0 transition-opacity duration-300 group-hover:opacity-100 p-4 text-[#eee] text-center'>
+                                {/*  <div className='absolute inset-0 flex items-center justify-center bg-black/80 opacity-0 transition-opacity duration-300 group-hover:opacity-100 p-4 text-[#eee] text-center'>
                                     <p className='text-base font-sans text-center'>{project.description}</p>
-                                </div>
+                                </div> */}
                             </div>
 
                             {/* Title & Links */}
                             <div className='flex justify-between items-center text-xl'>
                                 <h3>{project.title}</h3>
                                 <div className='flex gap-4'>
-                                    <a href={project.demo} target='_blank' rel='noopener noreferrer' className='hover:underline'>
-                                        Live Demo
-                                    </a>
+                                    {project.demo ? (
+                                        <a href={project.demo} target='_blank' rel='noopener noreferrer' className='hover:underline'>
+                                            Show
+                                        </a>
+                                    ) : (
+                                        <p>Contact For Demo</p>
+                                    )}
                                     {project.github && (
                                         <a href={project.github} target='_blank' rel='noopener noreferrer' className='hover:underline'>
                                             GitHub
