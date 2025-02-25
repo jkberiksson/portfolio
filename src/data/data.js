@@ -81,38 +81,4 @@ export const projects = [
         github: 'https://github.com/jkberiksson/games',
         tags: ['react', 'vite', 'tailwind css', 'react-feather', 'framer motion'],
     },
-
-    {
-        title: 'Javascript Games',
-        img: jsImg,
-        description:
-            'A collection of 5 small games built with HTML, CSS, and vanilla JavaScript. Created as a final exam project. Designed for web only.',
-        demo: 'https://www.student.bth.se/~jaei23/dbwebb-kurser/js/me/public/kmom10.html',
-        tags: ['javascript', 'html', 'css', 'jsdoc'],
-    },
-    {
-        title: 'Bew Gorp',
-        img: gorpImg,
-        description:
-            'A portfolio site to practice CSS skills. Built with the Pico CMS and Twig template engine, using Sass for styling and Markdown for content. Designed for both web and mobile.',
-        demo: 'https://www.student.bth.se/~jaei23/dbwebb-kurser/design/me/kmom10/',
-        tags: ['html', 'css', 'sass', 'pico', 'twig', 'markdown'],
-    },
-    {
-        title: 'Spellchecker',
-        img: spellcheckerImg,
-        description:
-            'A Flask app that checks words against a dictionary. Users can switch to other dictionaries with more words. Designed for web only.',
-        demo: 'https://www.student.bth.se/~jaei23/dbwebb-kurser/oopython/me/kmom10/spellchecker/app.cgi',
-        tags: ['python', 'flask', 'html', 'css'],
-    },
-    {
-        title: 'Foodies',
-        img: foodImg,
-        description:
-            'A React app to browse recipes. Includes navigation with React Router DOM and animations with Framer Motion. Designed for both web and mobile.',
-        demo: 'https://jkberiksson-food.netlify.app/',
-        github: 'https://github.com/jkberiksson/food',
-        tags: ['react', 'framer-motion', 'styled components', 'react feather', 'react router dom'],
-    },
 ];

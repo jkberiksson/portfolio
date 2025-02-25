@@ -6,7 +6,7 @@ import { Routes, Route } from 'react-router-dom';
 
 function App() {
     return (
-        <div className='min-h-dvh pt-6 pb-20 font-bebop text-black overflow-hidden container mx-auto'>
+        <div className='min-h-dvh px-6 pt-6 pb-20 font-bebop text-black overflow-hidden container mx-auto'>
             <Header />
             <Routes>
                 <Route path='/' element={<Work />} />
