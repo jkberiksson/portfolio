@@ -1,4 +1,3 @@
-import { p } from 'motion/react-client';
 import { projects } from '../data/data.js';
 
 export default function Work() {
@@ -17,11 +16,6 @@ export default function Work() {
                                     className='w-full h-full object-cover transition-transform duration-500 ease-out group-hover:scale-105'
                                 />
                                 <div className='absolute left-0 top-0 w-full h-full bg-black/30'></div>
-
-                                {/* Description Overlay - Shown on Hover */}
-                                {/*  <div className='absolute inset-0 flex items-center justify-center bg-black/80 opacity-0 transition-opacity duration-300 group-hover:opacity-100 p-4 text-[#eee] text-center'>
-                                    <p className='text-base font-sans text-center'>{project.description}</p>
-                                </div> */}
                             </div>
 
                             {/* Title & Links */}
