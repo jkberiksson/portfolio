@@ -11,8 +11,15 @@ import wattImg from '../assets/watt.png';
 import weatherImg from '../assets/weather.png';
 import webScrollAnimationImg from '../assets/web-scroll-animation.png';
 import happiImg from '../assets/happi.png';
+import bloomImg from '../assets/bloom.png';
 
 export const projects = [
+    {
+        title: 'Bloom Animation Website',
+        img: bloomImg,
+        demo: 'https://glistening-biscotti-6c7ac5.netlify.app/',
+        github: 'https://github.com/jkberiksson/bloom',
+    },
     {
         title: 'Web Scroll Animations',
         img: webScrollAnimationImg,
@@ -43,12 +50,7 @@ export const projects = [
         demo: 'https://jkberiksson-weather.netlify.app/',
         github: 'https://github.com/jkberiksson/weather',
     },
-    {
-        title: 'Watt är vi på väg?',
-        img: wattImg,
-        /* demo: 'https://vteam-14-app.netlify.app', */
-        github: 'https://github.com/Wattarvipavag',
-    },
+
     {
         title: 'Train Delays',
         img: trainImg,
@@ -56,15 +58,21 @@ export const projects = [
         github: 'https://github.com/jkberiksson/train-delays',
     },
     {
+        title: 'Watt är vi på väg?',
+        img: wattImg,
+        /* demo: 'https://vteam-14-app.netlify.app', */
+        github: 'https://github.com/Wattarvipavag',
+    },
+    {
         title: 'Documents',
         img: documentImg,
         /* demo: 'https://www.student.bth.se/~paar24/editor', */
         github: 'https://github.com/jkberiksson/jsramverkHT24-frontend',
     },
-    {
+    /*  {
         title: 'Games 2024',
         img: gamesImg,
         demo: 'https://jkberiksson-popgames2024.netlify.app/',
         github: 'https://github.com/jkberiksson/games',
-    },
+    }, */
 ];
