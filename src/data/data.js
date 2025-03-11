@@ -17,37 +17,37 @@ export const projects = [
     {
         title: 'Bloom Animation Website',
         img: bloomImg,
-        demo: 'https://glistening-biscotti-6c7ac5.netlify.app/',
+        demo: 'https://bloom-rho-wheat.vercel.app/',
         github: 'https://github.com/jkberiksson/bloom',
     },
     {
         title: 'Web Scroll Animations',
         img: webScrollAnimationImg,
-        demo: 'https://timely-mochi-f37d29.netlify.app/',
+        demo: 'https://scroll-animations-wine.vercel.app/',
         github: 'https://github.com/jkberiksson/scroll-animations',
     },
     {
         title: 'Happi',
         img: happiImg,
-        demo: 'https://majestic-baklava-f5ef4d.netlify.app/',
+        demo: 'https://happi-brown.vercel.app/',
         github: 'https://github.com/jkberiksson/happi',
     },
     {
         title: 'Image Gallery',
         img: galleryImg,
-        demo: 'https://jkberiksson-image-gallery.netlify.app/',
+        demo: 'https://image-gallery-nine-wheat.vercel.app/',
         github: 'https://github.com/jkberiksson/image-gallery',
     },
     {
         title: 'Web Design Animations',
         img: designImg,
-        demo: 'https://jkberiksson-serenita-website-design.netlify.app/',
+        demo: 'https://website-design-inky.vercel.app/',
         github: 'https://github.com/jkberiksson/Serenita-website-design',
     },
     {
         title: 'What´s the Weather?',
         img: weatherImg,
-        demo: 'https://jkberiksson-weather.netlify.app/',
+        demo: 'https://weather-woad-kappa.vercel.app/',
         github: 'https://github.com/jkberiksson/weather',
     },
 

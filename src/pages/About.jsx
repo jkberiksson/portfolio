@@ -48,6 +48,8 @@ export default function About() {
                         <li>Git & GitHub</li>
                         <div className='h-[6px] w-[6px] bg-black rounded-full'></div>
                         <li>Docker</li>
+                        <div className='h-[6px] w-[6px] bg-black rounded-full'></div>
+                        <li>Vercel</li>
                     </ul>
                 </div>
 
