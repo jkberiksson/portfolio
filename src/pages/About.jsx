@@ -53,22 +53,6 @@ export default function About() {
                     </ul>
                 </div>
 
-                {/* Experience Section */}
-                <div className='lg:w-1/2 lg:mx-auto mb-10'>
-                    <h2 className='text-3xl font-bold'>Experience</h2>
-                    <div className='text-lg space-y-2 font-sans'>
-                        <p>
-                            <strong>Freelance</strong> - Web Development (2025 - Present)
-                        </p>
-                        <p>
-                            <strong>Blekinge Technical University</strong> - Full-Stack Developer (2023 - 2025)
-                        </p>
-                        <p>
-                            <strong>University West</strong> - Web Design (2021 - 2022)
-                        </p>
-                    </div>
-                </div>
-
                 {/* Contact Section */}
                 <div className='lg:w-1/2 lg:mx-auto mb-10'>
                     <h2 className='text-3xl font-bold'>Contact</h2>
